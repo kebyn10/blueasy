@@ -1,0 +1,420 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+   
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 30px;
+  background: linear-gradient(#222222a6,#222222A6);
+    color: #fff;
+}
+.cool{
+    font-size: 24px;
+}
+
+.menu{
+    display: flex;
+  margin-right: 40px;
+
+}
+
+.lema{
+    text-align: center;
+
+    margin-top: 5%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+  
+}
+
+.colores{
+    color: #fff;
+    font-size: 170%;
+   background: linear-gradient(#222222a6,#222222A6);
+  width: 70%;
+  margin-top: 20px;
+  height: 80px;
+  padding: 20px;
+
+}
+
+.color{
+    color:  #4bcaff;
+}
+
+.menu p{
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.seleccionado{
+    background: none;
+    color: #4bcaff;
+    border:  #4bcaff solid 3px ;
+    padding: 4px;
+    margin-top: -7px;
+    
+}
+.nav_porta{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.nav_porta .cont_men{
+display: flex;
+justify-content: space-around;
+}
+
+.nav_porta .cont_men p{
+    margin-right:50px ;
+   
+}
+.cont_imgs{
+    display: flex;
+    flex-wrap: wrap;
+ justify-content: center;
+ margin-top: 5%;
+}
+
+.cont_imgs img{
+    margin: 20px;
+}
+
+.tit{
+    font-size: 30px;
+   
+}
+
+header{
+    background: url(../images/Fondo.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+}
+.logo{
+    margin-left: -60px;
+}
+span{
+    color: #4bcaff;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(#222222a6,#222222A6);    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.azulin{
+    background: none;
+    color: #4bcaff;
+    border: #4bcaff solid 3px;
+    padding:4px;
+    margin-top:-7px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    background: linear-gradient(#222222a6,#222222A6);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+}
+h4{
+    margin-left:20px;
+}
+.seccion1{
+    display: flex;
+    background-color: #4bcaff;
+    
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dato1 img{
+    width: 50px;
+}
+.dato1{
+    color: white;
+    width: 200px;
+}
+
+.fragmento{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+
+.menu2{
+    display: flex;
+    color: rgb(85, 79, 79);
+}
+.portfolio{
+    color: rgb(85, 79, 79);
+    margin-left: -60px;
+}
+.imagenescuadr{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.imagenescuadr img{
+    width: 42vh;
+}
+.seccion3{
+    background-color: #515f67;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.parte1{
+    padding: 20px;
+    width: 50%;
+}
+.reproduct{
+    padding: 2%;
+}
+hr{
+    width: 50px;
+}
+.visit{
+    background: none;
+    color:  #2e343a;
+    border:  #2e343a solid 2px;
+    width: 80px;
+    height: 5px;
+    padding: 20px;
+    padding-top: 10px;
+    margin-left: -1px;
+}
+.seccion4{
+    display: flex;
+    background: #4bcaff;
+    height: 200px;
+    flex-direction: column;
+    justify-content:center;
+    color: white;
+}
+.titulo{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -60px;
+    
+    
+}
+.titulo img{
+    height: 30px;
+}
+.textotwit{
+    padding-left: 12.5%;
+    padding-right: 10%;
+    font-size:27px;
+}
+.seccion5{
+    background-image: url(../images/bg_whoIs.png);
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+}
+.parte2{
+    padding: 20px;
+    width: 50%;   
+}
+.iconos{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.seccion6{
+    display: flex;
+    background:white;
+    height: 250px;
+    flex-direction: column;
+    justify-content:center;
+    color: rgb(85, 79, 79);
+}
+.titulo2{
+    display: flex;
+    justify-content: space-around;
+    margin-left: -48px;
+}
+.walter{
+    color: #4bcaff;
+    margin-top: 20px;
+}
+
+
+
+.seccion7{
+    background-image: url(../images/bg_contact.png) ;
+    background-position: center;
+    background-size: cover;
+    
+
+    padding: 50px;
+    color: #fff;
+   
+   
+}
+
+
+.seccion7 .mid{
+    margin-top: 50px;
+    margin-left: 20%; 
+}
+
+
+.seccion7 .mid .sez1{
+    display: flex;
+}
+
+.primo{
+margin-right: 20%;
+
+}
+
+input{
+    background: none;
+    width: 350px;
+    height: 30px;
+    border: #fff solid 1px;
+  
+}
+
+
+.mid h3{
+    margin-bottom: 20px;
+    
+}
+
+.primo h4{
+    margin-top: 30px;
+}
+
+.pp{
+  
+    height: 150px;
+    width: 80%;
+}
+
+.tit{
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.buu{
+    background: #4bcaff;
+    color: #fff;
+    width: 350px;
+    height: 50px;
+    border: none;
+    margin-top: 30px;
+
+  
+}
+
+
+footer{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    color: #515f67;
+    background: #2e343a;
+    font-size: 10px;
+   
+}
+
+
+@media screen and (max-width:850px) {
+    nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .colores{
+        font-size: 100%;
+    }
+
+    .seccion1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav_porta{
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+.dato1{
+    margin: 5% 0 5% 0;
+}
+
+    .cont_men{
+        font-size: 70%;
+    }
+
+    .seccion3 img{
+        width: 80%;
+    }
+
+    .parte1{
+        font-size: 100%;
+    }
+
+    .titulo h2{
+        font-size: 100%;
+    }
+
+    .seccion4 img{
+        width: 5%;
+    }
+
+    .textotwit p{
+        font-size: 80%;
+    }
+
+    .titulo2 h2{
+        margin-top: 2%;
+        font-size: 100%;
+    }
+    .titulo2 h1{
+        margin-top: 2%;
+        font-size: 100%;
+    }
+
+    .seccion7 .mid{
+        margin: 0;
+    
+    }
+
+    .pp{
+        width: 40%;
+    }
+}
